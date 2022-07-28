@@ -12,7 +12,7 @@ export function activate(context: ExtensionContext) {
   // Get a document selector for the CodeLens provider
   // This one is any file that has the language of javascript
   let docSelector = {
-    language: "javascript",
+    language: ["typescript", "javascript"],
     scheme: "file"
   };
 
